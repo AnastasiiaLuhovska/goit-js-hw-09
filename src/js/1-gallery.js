@@ -81,7 +81,7 @@ const createGalleryItem = ({preview, original, description}) =>
 
 function getBasePath() {
   if (window.location.hostname.includes('github.io')) {
-    return './symbol-defs.svg';
+    return 'symbol-defs.svg';
   }
   return '../symbol-defs.svg';
 }
