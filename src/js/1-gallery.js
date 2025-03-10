@@ -81,9 +81,9 @@ const createGalleryItem = ({preview, original, description}) =>
 
 function getBasePath() {
   if (window.location.hostname.includes('github.io')) {
-    return '/goit-js-hw-09/css/symbol-defs.svg';
+    return './symbol-defs.svg';
   }
-  return '../css/symbol-defs.svg';
+  return '../symbol-defs.svg';
 }
 
 const allGalleryItems = images.map(item => createGalleryItem(item)).join(' ')
