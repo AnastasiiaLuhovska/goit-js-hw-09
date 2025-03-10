@@ -95,7 +95,7 @@ new SimpleLightbox('.gallery-link-js', {captionsData: 'alt', captionDelay: 500, 
     `<svg width="11" height="20"><use href="${getBasePath()}#icon-arrow-right"></use></svg>`,
     `<svg width="11" height="20"><use href="${getBasePath()}#icon-arrow-left"></use></svg>`
   ],
-  closeText:'<svg class ="icon-close" width ="14" height ="14"><use href="../css/symbol-defs.svg#icon-close"></use></svg>'});
+  closeText:`<svg class="icon-close" width ="14" height ="14"><use href="${getBasePath()}#icon-close"></use></svg>`});
 
 
 // gallery.addEventListener('click', (event) => {
