@@ -10,10 +10,11 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    base: '/goit-js-hw-09/', // Add base path here
     build: {
       sourcemap: true,
       rollupOptions: {
-        input: glob.sync('./src/*.html'),
+        input: glob.sync('./src/**/*.html'), // This line will include all HTML files, not just in the root
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
