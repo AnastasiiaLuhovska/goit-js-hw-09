@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{S as p}from"./assets/
 		/>
 	</a>
 </li>
-`,c=t.map(o=>s(o)).join(" ");e.innerHTML=c;new p(".gallery-link-js",{captionsData:"alt",captionDelay:500,overlayOpacity:.8,navText:['<svg width ="11" height ="20"><use href="src/css/symbol-defs.svg#icon-arrow-right"></use></svg>','<svg width ="11" height ="20"><use href="src/css/symbol-defs.svg#icon-arrow-left"></use></svg>'],closeText:'<svg class ="icon-close" width ="14" height ="14"><use href="src/css/symbol-defs.svg#icon-close"></use></svg>'});
+`,c=t.map(o=>s(o)).join(" ");e.innerHTML=c;new p(".gallery-link-js",{captionsData:"alt",captionDelay:500,overlayOpacity:.8,navText:['<svg width ="11" height ="20"><use href="../css/symbol-defs.svg#icon-arrow-right"></use></svg>','<svg width ="11" height ="20"><use href="../css/symbol-defs.svg#icon-arrow-left"></use></svg>'],closeText:'<svg class ="icon-close" width ="14" height ="14"><use href="../css/symbol-defs.svg#icon-close"></use></svg>'});
 //# sourceMappingURL=1-gallery.js.map
