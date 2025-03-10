@@ -7,5 +7,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";import{S as e}from"./assets/
 		/>
 	</a>
 </li>
-`;function i(){return window.location.hostname.includes("github.io"),"../symbol-defs.svg"}const c=p.map(o=>n(o)).join(" ");s.innerHTML=c;new e(".gallery-link-js",{captionsData:"alt",captionDelay:500,overlayOpacity:.8,navText:[`<svg width="11" height="20"><use href="${i()}#icon-arrow-right"></use></svg>`,`<svg width="11" height="20"><use href="${i()}#icon-arrow-left"></use></svg>`],closeText:'<svg class ="icon-close" width ="14" height ="14"><use href="../css/symbol-defs.svg#icon-close"></use></svg>'});
+`;function i(){return window.location.hostname.includes("github.io"),"../symbol-defs.svg"}const c=p.map(o=>n(o)).join(" ");s.innerHTML=c;new e(".gallery-link-js",{captionsData:"alt",captionDelay:500,overlayOpacity:.8,navText:[`<svg width="11" height="20"><use href="${i()}#icon-arrow-right"></use></svg>`,`<svg width="11" height="20"><use href="${i()}#icon-arrow-left"></use></svg>`],closeText:`<svg class="icon-close" width ="14" height ="14"><use href="${i()}#icon-close"></use></svg>`});
 //# sourceMappingURL=1-gallery.js.map
